@@ -127,7 +127,7 @@ if git diff --cached --quiet; then
   echo "No changes to commit."
 else
   git commit -m "Update photos"
-  git push
+  git push -u origin main
   echo "Pushed to GitHub!"
 fi
 
